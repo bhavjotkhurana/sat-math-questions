@@ -13,8 +13,8 @@ The main goal of this project is to eventually integrate these questions into QS
 ## Contents
 
 - **LaTeX Source Files**: The main documents and additional snippets for each topic.
-  - `sat_math_practice.tex`: The primary LaTeX document with the questions.
-  - `solutions.tex` (if available): The LaTeX document containing solutions.
+  - `questions.tex`: The primary LaTeX document with the questions.
+  - `solutions.tex`: The LaTeX document containing solutions.
   - Additional sections/snippets for extra questions in each category.
 - **PDFs**: Compiled versions of the documents for easy practice.
 
@@ -22,7 +22,7 @@ The main goal of this project is to eventually integrate these questions into QS
 
 1. **Compile the Documents**:
    - Make sure you have a LaTeX distribution installed (e.g., TeX Live, MiKTeX).
-   - Run `pdflatex sat_math_practice.tex` (or use your preferred LaTeX editor) to generate a PDF of the questions.
+   - Run `pdflatex questions.tex` (or use your preferred LaTeX editor) to generate a PDF of the questions.
    - Similarly, compile the solutions file (if provided) to review the answers.
 
 2. **Practice**:
